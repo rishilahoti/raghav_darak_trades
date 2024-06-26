@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import React, { ReactNode, useRef } from "react";
@@ -12,7 +13,7 @@ export const TextParallaxContentExample = () => {
         subheading="Growing Together"
         heading="Cultivating Success Through Collaborative Contract Farming"
       >
-        <ExampleContent />
+        <ExampleContent1 />
       </TextParallaxContent>
       <TextParallaxContent
         imgUrl="https://images.alphacoders.com/873/873094.jpg"
@@ -122,19 +123,31 @@ const OverlayCopy = ({
 
 const ExampleContent = () => (
   <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
-    <h2 className="col-span-1 text-3xl font-bold md:col-span-4 text-[#252329]">
-      Additional content explaining the above card here
-    </h2>
     <div className="col-span-1 md:col-span-8">
-      <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-        blanditiis soluta eius quam modi aliquam quaerat odit deleniti minima
-        maiores voluptate est ut saepe accusantium maxime doloremque nulla
-        consectetur possimus.
+      <p className="mb-4 text-xl text-neutral-600 font-semibold md:text-2xl">
+        We supply the best quality <strong>Ashwagandha</strong>, Giloy, Neem, and other <strong>Herbs</strong>. 
+        Our products include raw herbs, seeds, and powders, ensuring you receive the highest standards of purity and potency.
       </p>
-      <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        reiciendis blanditiis aliquam aut fugit sint.
+      <p className="mb-8 text-xl text-neutral-600 font-semibold md:text-2xl">
+        Click below to discover our premium selection of herbs.
+      </p>
+      <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
+        Learn more <FiArrowUpRight className="inline" />
+      </button>
+    </div>
+  </div>
+);
+
+const ExampleContent1 = () => (
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    <div className="col-span-1 md:col-span-8">
+      <p className="mb-4 text-xl text-neutral-600 font-semibold md:text-2xl">
+          Our collaborative contract farming model ensures mutual growth and sustainability for farmers and agribusinesses.
+          By working together, we boost agricultural productivity and market access.
+      </p>
+      <p className="mb-8 text-xl text-neutral-600 font-semibold md:text-2xl">
+        We specialize in growing a wide variety of herbs and are ready to collaborate with anyone interested in contract farming. 
+        Whether you're a small-scale farmer or a large agribusiness, we welcome partnerships to cultivate success together.
       </p>
       <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
         Learn more <FiArrowUpRight className="inline" />

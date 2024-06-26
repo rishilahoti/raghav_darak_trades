@@ -15,8 +15,8 @@ const ShuffleHero = () => {
           Raw Herbs
         </h3>
         <p className="text-base md:text-lg text-[#645e6e] my-4 md:my-6">
-          We have the best quality of <strong>Raw Herbs, Spices and Powder</strong> that are sourced directly from farmers or grwon inhouse.
-          We ensure that the quality of the raw materials are top notch.
+          We have the best quality of <strong>Raw Herbs, Spices and Powder</strong> that are sourced directly from farmers or grown inhouse.
+          We ensure that the quality of the raw materials are top notch and as per your needs.
         </p>
         <button className="bg-[#9971e0] text-white font-medium py-2 px-4 rounded transition-all hover:bg-[#36186d] active:scale-95">
           About Us
