@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-veri" content="google-site-verification=StKnFVMdxYtC2pDJPSr7oQjfKmXrAl1UXRLLkokFj8o" />
+        <meta name="google-site-veri" content="StKnFVMdxYtC2pDJPSr7oQjfKmXrAl1UXRLLkokFj8o" />
         <meta name="description" content="Discover a wide variety of high-quality herbs, spices, and their powders. Perfect for culinary and medicinal uses." />
         <meta name="keywords" content="herbs, spices, herb powders, spice powders, culinary herbs, medicinal herbs Lata Kasturi - Musk Dana	Abelmoschus Moschatus
                                         Apamarga	Achyranthes Aspera

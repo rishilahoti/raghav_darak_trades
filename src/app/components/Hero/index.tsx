@@ -155,7 +155,6 @@ const ShuffleGrid = () => {
 
   useEffect(() => {
     shuffleSquares();
-
     return () => clearTimeout(timeoutRef.current);
   }, [shuffleSquares]);
 

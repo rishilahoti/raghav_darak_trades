@@ -71,6 +71,11 @@ const AboutUs = () => {
         <a href="#" className="block text-sm hover:underline">
           Our Company
         </a>
+        <a href="mailto: herbalnorganic@gmail.com" className="block text-sm hover:underline">
+          Mail To
+          <br/>
+          herbalnorganic@gmail.com
+        </a>
       </div>
       <a href='mailto: herbalnorganic@gmail.com'>
       <button className="w-full rounded-lg border-2 border-[#252329] px-4 py-2 font-semibold transition-colors hover:bg-[#252329] hover:text-white">
