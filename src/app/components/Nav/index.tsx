@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 const Nav = () => {
   return (
     <div className="flex h-[41px] justify-center bg-[#252329] px-auto py-auto">
-      <FlyoutLink href="#" FlyoutContent={AboutUs}>
+      <FlyoutLink FlyoutContent={AboutUs}>
         About Us
       </FlyoutLink>
     </div>
@@ -14,11 +14,9 @@ const Nav = () => {
 
 const FlyoutLink = ({
   children,
-  href,
   FlyoutContent,
 }: {
   children: React.ReactNode;
-  href: string;
   FlyoutContent?: React.ElementType;
 }) => {
   const [open, setOpen] = useState(false);
@@ -31,7 +29,7 @@ const FlyoutLink = ({
       onMouseLeave={() => setOpen(false)}
       className="relative w-fit h-fit m-auto"
     >
-      <a href={href} className="relative text-white">
+      <a className="relative text-white">
         {children}
         <span
           style={{
@@ -65,10 +63,10 @@ const AboutUs = () => {
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
         <h3 className="font-semibold">To Visitors</h3>
-        <a href="#" className="block text-sm hover:underline">
+        <a className="block text-sm hover:underline">
           Introduction
         </a>
-        <a href="#" className="block text-sm hover:underline">
+        <a className="block text-sm hover:underline">
           Our Company
         </a>
         <a href="mailto: herbalnorganic@gmail.com" className="block text-sm hover:underline">

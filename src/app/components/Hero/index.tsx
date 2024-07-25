@@ -47,82 +47,82 @@ const shuffle = (array: (typeof squareData)[0][]) => {
 const squareData = [
   {
     id: 1,
-    src: "https://merlionnaturals.in/cdn/shop/articles/ashwagandha-merlion-naturals_900x.jpg?v=1676958103",
+    src: "/images/hero/ashwa.jpg",
     alt: "Ashwagandha, Withania Somnifera, Indian Ginseng, Ashwa, Ashwagandha, Asgandh, Asgandha, Asgand, Asgandh, Asgand",
   },
   {
     id: 2,
-    src: "https://m.media-amazon.com/images/I/51Z9BNZOgNL._AC_UF1000,1000_QL80_.jpg",
+    src: "/images/hero/chia.jpg",
     alt: "Chia Seeds, Sabja Seeds, Basil Seeds, Tukmaria Seeds, Falooda Seeds, Sweet Basil Seeds, Selashi Seeds, Sabja Ginjalu, Sabja Vithai, Tukmaria, Tulsi Seeds, Tulsi Dana, Tukmalanga, Tukmalanga",
   },
   {
     id: 3,
-    src: "https://5.imimg.com/data5/SELLER/Default/2022/10/UM/TC/JF/45859230/guduchi-extract-500x500.jpg",
+    src: "/images/hero/giloy.jpg",
     alt: "Guduchi, Giloy, Tinospora Cordifolia, Amrita, Gurcha, Heart-Leaved Moonseed, Guduchi Satva, Amrita Satva, Amritavalli, Chinnaruha",
   },
   {
     id: 4,
-    src: "https://rukminim2.flixcart.com/image/850/1000/xif0q/plant-seed/t/6/c/100-dry-amla-marwal-creation-original-imagy4s5bznzaycj.jpeg?q=20&crop=false",
+    src: "/images/hero/amla.jpg",
     alt: "Amla, Indian Gooseberry, Phyllanthus Emblica, Emblic Myrobalan, Emblic, Amlaki, Amlakhi, Aavla, Aavlekaayi, Nellikkai, Nellikka, Usirikai, Amalaki, Dhatri, Dhatriphala, Amalika, Amalaki, Amalakam, Amalakamu",
   },
   {
     id: 5,
-    src: "https://5.imimg.com/data5/ANDROID/Default/2023/1/JM/AG/BK/6411974/product-jpeg-500x500.jpg",
+    src: "/images/hero/shatavri.jpg",
     alt: "Shatavri, Asparagus, Asparagus Racemosus, Asparagus Racemosa, Asparagus Shatavari, Asparagus Satavar, Asparagus Sariva, Asparagus Sariva, Asparagus Satavari, Asparagus Satavari, Asparagus Satavar, Asparagus Satavar",
   },
   {
     id: 6,
-    src: "https://www.researchgate.net/publication/354518896/figure/fig3/AS:1066785021382657@1631352777581/Moringa-seeds-and-leaves-extract.png",
+    src: "/images/hero/moringa.jpg",
     alt: "Moringa, Drumstick Tree, Horseradish Tree, Ben Oil Tree, Benzoil Tree, La Mu, Malunggay, Marango, Mlonge, Mulangay, Shevaga, Sajna, Sajna, Sajina, Shajna, Shajna, Shevaga, Shevaga",
   },
   {
     id: 7,
-    src: "https://static.wixstatic.com/media/313fb0_17f7f87c28f24bceabb04c1d2aa3fe2b~mv2.jpg/v1/fill/w_480,h_322,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/313fb0_17f7f87c28f24bceabb04c1d2aa3fe2b~mv2.jpg",
+    src: "/images/hero/belgiri.jpg",
     alt: "Belgiri, Bael, Bilva, Bilwa, Bel, Beli, Bela, Belapatra, Belaphal, Belaphala",
   },
   {
     id: 8,
-    src: "https://m.media-amazon.com/images/I/41Fhl0mghvS._AC_UF1000,1000_QL80_.jpg",
+    src: "/images/hero/neem.jpg",
     alt: "Neem, Nimba, Arishta, Arishtha, Azadirachta Indica, Margosa, Nimbay, Nimbaka, Nimbi, Nimbya, Vembu, Vepa, Veppam",
   },
   {
     id: 9,
-    src: "https://m.media-amazon.com/images/I/61ChANNqdZL._AC_UF1000,1000_QL80_.jpg",
+    src: "/images/hero/tulsi.jpg",
     alt: "Tulsi, Holy Basil, Ocimum Tenuiflorum, Ocimum Sanctum, Ocimum Sanct",
   },
   {
     id: 10,
-    src: "https://ayurvedastoreonline.com/cdn/shop/products/Harad_1200x1200.jpg?v=1658566356",
+    src: "/images/hero/harad.jpg",
     alt: "Harad, Haritaki, Terminalia Chebula",
   },
   {
     id: 11,
-    src: "https://thepaharilife.com/cdn/shop/products/dry-stevia-leaf-glass-cup-wooden-tray-old-wooden-floor-dry-stevia-leaf-161412235_800x.jpg?v=1584275647",
+    src: "/images/hero/stevia.jpg",
     alt: "Stevia, Sweet Leaf, Sugar Leaf, Sweet Herb of Paraguay, Sweet Herb, Honey Leaf, Candy Leaf, Sweet Chrysanthemum, Sweet Mary, Sugar Plant, Stevia Rebaudiana, Sweet Plant, Sweet Weed, Sweet Grass, Sweet Herb, Sweet Leaf of Paraguay, Sweet Leaf of Brazil, Sweet Leaf of Mexico, Sweet Leaf of South America, Sweet Leaf of North America, Sweet Leaf of Central America, Sweet Leaf of the Americas, Sweet Leaf of the World, Sweet Leaf of the Universe, Sweet Leaf of the Galaxy, Sweet Leaf of the Solar System, Sweet Leaf of the Milky Way",
   },
   {
     id: 12,
-    src: "https://m.media-amazon.com/images/I/71i4WL1pepL._AC_UF1000,1000_QL80_.jpg",
+    src: "/images/hero/methi.jpg",
     alt: "FenuGreek, Methi, Trigonella Foenum-Graecum, Greek Hay, Greek Hay Seed, Bird's Foot, Cow's Horn, Cow's Horn Clover"
   },
   {
     id: 13,
-    src: "https://gonefarmers.com/cdn/shop/products/image_804109dd-2bb8-4665-92b7-80710f2dfe43_1200x1200.jpg?v=1591725087",
+    src: "images/hero/dhania.jpg",
     alt: "Dhania, Coriander, Coriandrum Sativum, Chinese Parsley"
   },
   {
     id: 14,
-    src: "https://5.imimg.com/data5/SELLER/Default/2023/9/345593437/GT/CN/NS/16713292/terminalia-bellerica-fruit-bibhitaki-baheda-500x500.png",
+    src: "images/hero/baheda.jpg",
     alt: "Baheda, Terminalia Bellerica, Bibhitaki, Vibhitaki, Vibheetaki, Vibheetaaki, Vibheeta"
   },
   {
     id: 15,
-    src: "https://theayurvedaexperience.com/cdn/shop/articles/dry-ginger-benefits-ginger-powder-uses-ayurvedic-remedies-ginger-powder-tea-recipe-216039_900x.jpg?v=1595411803",
+    src: "images/hero/ginger.jpg",
     alt: "Dry Ginger, Sunth, Sonth, Zingiber Officinale, Shunthi, Adrak, Adraka, Adrakh, Adrakam, Adrakamu"
   },
   {
     id: 16,
-    src: "https://m.media-amazon.com/images/I/518uwsXHnAL._AC_UF1000,1000_QL80_.jpg",
+    src: "images/hero/rose.jpg",
     alt: "Rose Petals, Gulab Ke Phool, Rosa, Rosa Indica, Rosa Damascena, Rosa Centifolia, Rosa Gallica, Rosa Chinensis, Rosa Moschata, Rosa Rugosa, Rosa Canina, Rosa Laevigata, Rosa Roxburghii, Rosa Multiflora, Rosa Banksiae, Rosa Gigantea, Rosa Foetida, Rosa Sempervirens"
   },
 ];

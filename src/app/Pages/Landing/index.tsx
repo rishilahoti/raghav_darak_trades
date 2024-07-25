@@ -9,14 +9,14 @@ export const TextParallaxContentExample = () => {
   return (
     <div className="bg-[#efeff1] pt-4">
       <TextParallaxContent
-        imgUrl="https://www.hashmicro.com/blog/wp-content/uploads/2022/09/Gautam-Adani-IRMA-Speech.jpg"
+        imgUrl="/images/descri-1.jpg"
         subheading="Growing Together"
         heading="Cultivating Success Through Collaborative Contract Farming"
       >
         <ExampleContent1 />
       </TextParallaxContent>
       <TextParallaxContent
-        imgUrl="https://images.alphacoders.com/873/873094.jpg"
+        imgUrl="/images/descri-2.jpg"
         subheading="Quality"
         heading="Never compromise."
       >
@@ -131,9 +131,6 @@ const ExampleContent = () => (
       <p className="mb-8 text-xl text-neutral-600 font-semibold md:text-2xl">
         Click below to discover our premium selection of herbs.
       </p>
-      <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
-        Learn more <FiArrowUpRight className="inline" />
-      </button>
     </div>
   </div>
 );
@@ -149,9 +146,6 @@ const ExampleContent1 = () => (
         We specialize in growing a wide variety of herbs and are ready to collaborate with anyone interested in contract farming. 
         Whether you're a small-scale farmer or a large agribusiness, we welcome partnerships to cultivate success together.
       </p>
-      <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
-        Learn more <FiArrowUpRight className="inline" />
-      </button>
     </div>
   </div>
 );
