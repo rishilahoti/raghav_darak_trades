@@ -63,12 +63,6 @@ const AboutUs = () => {
     <div className="w-64 bg-white p-6 shadow-xl">
       <div className="mb-3 space-y-3">
         <h3 className="font-semibold">To Visitors</h3>
-        <a className="block text-sm hover:underline">
-          Introduction
-        </a>
-        <a className="block text-sm hover:underline">
-          Our Company
-        </a>
         <a href="mailto: herbalnorganic@gmail.com" className="block text-sm hover:underline">
           Mail To
           <br/>

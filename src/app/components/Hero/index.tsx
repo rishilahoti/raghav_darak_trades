@@ -5,6 +5,13 @@ import { motion } from "framer-motion";
 import { useEffect, useRef, useState, useCallback } from "react";
 
 const ShuffleHero = () => {
+
+  const handleEmailClick = () => {
+    // Add any additional functionality here, such as tracking or analytics
+    console.log('Email button clicked');
+    window.location.href = 'mailto:herbalnorganic@gmail.com?subject=Inquiry&body=Hello, I would like to know more about your products.';
+  };
+
   return (
     <section className="w-full px-16 py-8 grid grid-cols-1 md:grid-cols-2 items-center gap-8 min-w-screen min-h-screen mx-auto bg-[#efeff1]">
       <div>
@@ -18,7 +25,7 @@ const ShuffleHero = () => {
           We have the best quality of <strong>Raw Herbs, Spices and Powder</strong> that are sourced directly from farmers or grown inhouse.
           We ensure that the quality of the raw materials are top notch and as per your needs.
         </p>
-        <button className="bg-[#9971e0] text-white font-medium py-2 px-4 rounded transition-all hover:bg-[#36186d] active:scale-95">
+        <button onClick={handleEmailClick} className="bg-[#9971e0] text-white font-medium py-2 px-4 rounded transition-all hover:bg-[#36186d] active:scale-95">
           About Us
         </button>
       </div>
