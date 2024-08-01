@@ -7,7 +7,6 @@ import { useEffect, useRef, useState, useCallback } from "react";
 const ShuffleHero = () => {
 
   const handleEmailClick = () => {
-    // Add any additional functionality here, such as tracking or analytics
     console.log('Email button clicked');
     window.location.href = 'mailto:herbalnorganic@gmail.com?subject=Inquiry&body=Hello, I would like to know more about your products.';
   };
